@@ -149,11 +149,11 @@ chmod +x IMPLEMENTATION_AUTO.sh AppUpdate_AUTO.sh
 
 The script interactively prompts for:
 
-1. Database name (default: `bmidb`)
-2. Database user (default: `bmi_user`)
-3. Database password (must not be empty)
-4. Confirm password
-5. `Continue with deployment? (y/n)`
+1. `Continue with deployment? (y/n)`
+2. Database name (default: `bmidb`)
+3. Database user (default: `bmi_user`)
+4. Database password (must not be empty)
+5. Confirm password
 6. Domain name + Let's Encrypt email *(only if `--with-ssl` and no `--domain=` flag)*
 
 ---
@@ -170,7 +170,7 @@ The script interactively prompts for:
 | 6 | `deploy_backend` | `npm install --production`; runs all `migrations/*.sql` in order |
 | 7 | `deploy_frontend` | `npm install`; `npm run build`; copies `dist/` to `/var/www/bmi-health-tracker/`; sets `www-data` ownership |
 | 8 | `setup_pm2` | Stops any existing process; starts `src/server.js` as `bmi-backend`; `pm2 save`; configures systemd startup |
-| 9 | `configure_nginx` | Auto-detects EC2 public IP via IMDSv2; writes Nginx config with API proxy, gzip, security headers; reloads |
+| 9 | `configure_nginx` | Auto-detects EC2 public IP via IMDSv2; writes Nginx config with API proxy, gzip, security headers; restarts Nginx |
 | 10 | `setup_ssl_certificate` | *(if `--with-ssl`)* Installs Certbot; validates domain; runs `certbot --nginx`; tests auto-renewal |
 | 11 | `run_health_checks` | Tests backend API, PM2 status, frontend file presence, DB row count |
 | 12 | `display_summary` | Prints access URL, useful commands, backup path |
