@@ -1,4 +1,4 @@
-# AWS 3-Tier Full Deployment Guide (VPC + EC2 + Nginx + Frontend)
+# AWS 3-Tier Full Deployment Guide (VPC + EC2 + Nginx + Frontend+API+DB)
 Project Repository
 https://github.com/MirajHossain/3-Tier-App-Assignment-Module-4.git
 ________________________________________
