@@ -194,6 +194,9 @@ Screen Shoot:
 <img width="1905" height="456" alt="Nginx_Up_Running" src="https://github.com/user-attachments/assets/c700da26-b417-4adf-a303-54bfab35af9b" />
 # Front End (Web Server) Running
 <img width="1522" height="598" alt="Front End Running" src="https://github.com/user-attachments/assets/77eb8f2c-ca90-4049-9681-3fdb5dec162b" />
+# App Sever Running
+<img width="1204" height="1600" alt="WhatsApp Image 2026-05-10 at 5 26 10 PM" src="https://github.com/user-attachments/assets/ccd769a8-d251-49bc-8ade-1f4630666757" />
+
 
 
 
